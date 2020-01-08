@@ -36,7 +36,7 @@
         <div class="uk-modal-dialog">
             <div class="modal-content">
                 <div class="uk-modal-header">
-                    <span>Log in / Sign up</span>
+                    <span>Log in</span>
                     <p class="uk-modal-header__description js_popup_login_custom_text"></p>
                     <a aria-label="Close" data-dismiss="modal" class="uk-modal-close sm-round"></a>
                 </div>
@@ -44,7 +44,7 @@
                     <span class="js_login_form_container">
                         <form method="post" action="index.html" class="login_form js_pre_login_form" >
                             <p class="modal-info-title">
-                                Log in or Sign up to get instant access to chat with writers
+                                Log in to get instant access to chat with writers
                             </p>
                             <button class="connect-social-btn connect-social-btn_google js_google_login_btn" type="button">
                                 <span>CONTINUE WITH GOOGLE</span>
@@ -56,19 +56,75 @@
                                 <span>or</span>
                             </div>
                             <div class="line js_login_sub_action_line" style="display:none;">
-                                You need to Log in or Sign up for a new account in order to <span class="js_login_sub_action_text"></span></div><div class="line js_login_sub_action_line" style="display:none;"><b>Please enter your email to proceed</b></div><div class="line"><input type="email" id="_pre_login_username" name="_pre_login_username" data-atest="atest_login_form_email" class="" placeholder="Enter your email" /></div><div class="line js_social_auth_error_block" style="display: none;"><div class="errorText js_social_auth_error_text js_login_loading_hide" data-atest=atest_login_elem_error_text></div></div><div class="line"><div class="js_login_loading_hide" style="display: none"><button class="uk-button" data-atest=atest_login_form_submit type="submit">Continue</button></div><div class="uk-text-center js_login_loading_img" style="display:block;"><div class="site_loading"></div></div></div><input type="hidden" id="_pre_login_user_type_id_for_signup" name="_pre_login_user_type_id_for_signup" class="js_pre_login_user_type_id_for_signup" value="1" /><input type="hidden" id="_pre_login_social_account_id" name="_pre_login_social_account_id" class="js_pre_login_social_account_id" /><input type="hidden" id="_token" name="_token" data-js-token-id="22ad8a75859312de6dd8f84329d3e66b" value="ba76610e1de19affdd7bd535f13c2259__e7b5fd9a01cf455d0d2f4053fe6b2a61" /><div class="uk-clearfix"></div><div class="gdpr-notification gdpr-notification_color_dark gdpr-notification_mt_0">
-                                By clicking “Continue”, you agree to our
-                                <a href="terms.html"  rel="nofollow" >terms of service</a>
-                                and
-                                <a href="privacy.html"  rel="nofollow" >privacy policy</a>
-                                . We’ll occasionally send you promo and account related emails.
+                                You need to Log in 
+                                <span class="js_login_sub_action_text"></span>
                             </div>
+                            
+                            <div class="line">
+                                <input type="email" id="_pre_login_username" name="_pre_login_username" data-atest="atest_login_form_email" placeholder="Your email" />
+                            </div>
+                            <div class="line">
+                                <input type="password" id="_pre_login_password" name="_pre_login_password" data-atest="atest_login_form_password" class="" placeholder="Your password" />
+                            </div>
+                            <div class="line js_social_auth_error_block" style="display: none;">
+                                <div class="errorText js_social_auth_error_text js_login_loading_hide" data-atest=atest_login_elem_error_text></div>
+                            </div>
+                                <div class="js_login_loading_hide line" >
+                                    <button class="uk-button" data-atest=atest_login_form_submit type="submit">Continue</button>
+                                </div>
+                            <input type="hidden" id="_pre_login_user_type_id_for_signup" name="_pre_login_user_type_id_for_signup" class="js_pre_login_user_type_id_for_signup" value="1" />
+                            <input type="hidden" id="_pre_login_social_account_id" name="_pre_login_social_account_id" class="js_pre_login_social_account_id" />
+                            <input type="hidden" id="_token" name="_token" data-js-token-id="22ad8a75859312de6dd8f84329d3e66b" value="ba76610e1de19affdd7bd535f13c2259__e7b5fd9a01cf455d0d2f4053fe6b2a61" />
+                            <div class="uk-clearfix"></div>
                         </form>
                     </span>
                 </div>
             </div>
         </div>
-    </div>                    
+    </div>
+    <div id="popup_signup" style="display:none;">
+        <div class="uk-modal-dialog" >
+            <div class="modal-content" >
+                <div class="uk-modal-header">
+                    <span>Sign Up</span>
+                    <p class="uk-modal-header__description js_popup_login_custom_text"></p>
+                    <a aria-label="Close" data-dismiss="modal" class="uk-modal-close sm-round"></a>
+                </div>
+                <div class="uk-form">
+                    <span class="js_login_form_container">
+                        <form method="post" action="index.html" class="login_form js_pre_login_form" >
+                            <div class="line">
+                                <input type="text" id="_pre_signup_name" name="_pre_signup_name" data-atest="atest_signup_form_name" placeholder="First and last name" />
+                            </div>
+                            <div class="line js_login_sub_action_line" style="display:none;">
+                                You need to Sign Up 
+                                <span class="js_login_sub_action_text"></span>
+                            </div>
+                            <div class="line">
+                                <input type="email" id="_pre_signup_username" name="_pre_signup_username" data-atest="atest_signup_form_email" placeholder="Your email" />
+                            </div>
+                            <div class="line">
+                                <input type="password" id="_pre_signup_password" name="_pre_signup_password" data-atest="atest_signup_form_password" placeholder="Your password" />
+                            </div>
+                            <div class="line">
+                                <input type="tel" id="_pre_signup_phone" name="_pre_signup_phone" data-atest="atest_signup_form_phone" placeholder="Your phone number" />
+                            </div>
+                            <div class="line js_social_auth_error_block" style="display: none;">
+                                <div class="errorText js_social_auth_error_text js_login_loading_hide" data-atest=atest_login_elem_error_text></div>
+                            </div>
+                                <div class="js_login_loading_hide line" >
+                                    <button class="uk-button" data-atest=atest_login_form_submit type="submit">Continue</button>
+                                </div>
+                            <input type="hidden" id="_pre_login_user_type_id_for_signup" name="_pre_login_user_type_id_for_signup" class="js_pre_login_user_type_id_for_signup" value="1" />
+                            <input type="hidden" id="_pre_login_social_account_id" name="_pre_login_social_account_id" class="js_pre_login_social_account_id" />
+                            <input type="hidden" id="_token" name="_token" data-js-token-id="22ad8a75859312de6dd8f84329d3e66b" value="ba76610e1de19affdd7bd535f13c2259__e7b5fd9a01cf455d0d2f4053fe6b2a61" />
+                            <div class="uk-clearfix"></div>
+                        </form>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>                                          
     <div id="popup_cant_register" style="display:none;">
         <div class="uk-modal-dialog">
             <div class="modal-content">
@@ -390,7 +446,7 @@
                     </script>
                     <div class="page-header__user-controllers">
                         <button type="button" class="page-header__login-btn btn btn_second btn_slim"  data-popup-target="popup_login"  data-popup-data='[]' data-popup-click="" data-atest=atest_login_elem_popup_open>Log in</button>
-                        <a href="index.html" class="js_button_order page-header__order-btn btn btn_main btn_slim js_order_now_header_btn_action  js_button_order_ga"  >Hire Writer</a>
+                        <button type="button" class="page-header__login-btn btn btn_second btn_slim"  data-popup-target="popup_signup" data-popup-data='[]' data-popup-click="" data-atest=atest_login_elem_popup_open>Sign up</button>           
                         <script>
                             $(function()
                             {
