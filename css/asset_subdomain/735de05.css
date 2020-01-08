@@ -3579,6 +3579,106 @@ p {
     margin-right: auto
 }
 
+#dashboard-overview {
+    padding: 100px 50px;
+    background-color: #111;
+}
+
+#account-overview {
+    vertical-align: top;
+    background-color: firebrick;
+    display: inline-block;
+    width: 30%;
+
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.background-card__subtitle_fz_s {
+    color: #222;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#profile-details input {
+    background-color: #222;
+    color: white;
+}
+
+#profile-details label {
+    color: #333;
+}
+
+.profile-details-save-btn {
+    background-color: darkred;
+    color: white;
+    border-radius: 15px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px;
+    width: 100px;
+}
+
+.background-card__title {
+    color: #111;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.account-username {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.number-task {
+    display: inline-block;
+    margin: 10px;
+}
+
+.number-task h1 {
+    text-align: center;
+}
+
+.number-task p {
+    font-size: 14px;
+    text-align: center;
+}
+
+#account-tasks {
+    margin: auto;
+    text-align: center;
+}
+
+.account-links {
+    margin-top: 10px;
+}
+
+#profile-details {
+    margin-left: 3%;
+    background-color: #888;
+    display: inline-block;
+    width: 65%;
+
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+#hire-writer-a button, #account-orders-a button {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: darkred;
+    border: 1px solid #222;
+    padding: 15px;
+    font-size: 16px;
+    color: #111;;
+    font-weight:600;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
 .slick-list {
     position: relative;
     display: block;
