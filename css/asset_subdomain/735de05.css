@@ -100,7 +100,7 @@ input[type="color"] {
     max-width: 100%;
     padding: 5px 20px;
     background: rgba(2, 32, 50, 0.03);
-    border: 1px solid rgba(10, 105, 163, 0.87);
+    border: 1px solid darkred;
     color: #555555;
     width: 100%;
     border-radius: 5px;
@@ -257,19 +257,19 @@ p {
 }
 
 ::-webkit-input-placeholder {
-    color: #BDBDBD
+    color: #333;
 }
 
 ::-moz-placeholder {
-    color: #BDBDBD
+    color: #333
 }
 
 :-ms-input-placeholder {
-    color: #BDBDBD
+    color: #333
 }
 
 ::placeholder {
-    color: white;
+    color: #333
 }
 
 :invalid {
@@ -3277,7 +3277,7 @@ p {
         padding: 0;
         margin: 0;
         font-size: 14px;
-        color: #03c1ff;
+        color: white;
         background: none;
         box-shadow: none;
         -webkit-box-ordinal-group: 2;
@@ -6016,19 +6016,19 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
 
 
 .pre-order-login-form .pre-order-login-form__input::-webkit-input-placeholder {
-    color: #a6c3da
+    color: #333
 }
 
 .pre-order-login-form .pre-order-login-form__input::-moz-placeholder {
-    color: #a6c3da
+    color: #333
 }
 
 .pre-order-login-form .pre-order-login-form__input:-ms-input-placeholder {
-    color: #a6c3da
+    color: #333
 }
 
 .pre-order-login-form .pre-order-login-form__input::placeholder {
-    color: #a6c3da
+    color: #333
 }
 
 .pre-order-login-form .pre-order-login-form__select {

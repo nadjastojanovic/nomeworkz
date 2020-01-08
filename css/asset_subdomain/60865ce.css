@@ -699,7 +699,7 @@
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 14px;
-    color: #0f80de;
+    color: firebrick;
     text-align: center
 }
 
@@ -776,7 +776,7 @@
 
 .modal-allow-user .login_form .uk-button {
     color: #fff;
-    background-color: #03c1ff
+    background-color: firebrick
 }
 
 .modal-allow-user .login_form .uk-button:focus,
@@ -1396,7 +1396,7 @@
 }
 
 .uk-modal-header {
-    background: #033655;
+    background: darkred;
     color: #fff;
     padding: 20px 60px;
     text-align: center;
