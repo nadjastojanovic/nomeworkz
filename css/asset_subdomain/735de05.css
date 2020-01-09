@@ -75,41 +75,6 @@ body.has-banner_size_xl {
     padding-top: 100px
 }
 
-select,
-textarea,
-input:not([type]),
-input[type="text"],
-input[type="password"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="date"],
-input[type="month"],
-input[type="time"],
-input[type="week"],
-input[type="number"],
-input[type="email"],
-input[type="url"],
-input[type="search"],
-input[type="tel"],
-input[type="color"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    line-height: 1.2;
-    height: 50px;
-    max-width: 100%;
-    padding: 5px 20px;
-    background: rgba(2, 32, 50, 0.03);
-    border: 1px solid darkred;
-    color: #555555;
-    width: 100%;
-    border-radius: 5px;
-    font-weight: normal;
-    font-size: 16px;
-    -webkit-transition: background-color linear 0.2s, color linear 0.2s;
-    transition: background-color linear 0.2s, color linear 0.2s;
-    font-family: "GothamPro", sans-serif
-}
 
 select:focus,
 textarea:focus,
@@ -133,6 +98,10 @@ input[type="color"]:focus {
     color: #444444
 }
 
+.hire-writer-form input {
+    margin-bottom: 15px;
+}
+
 select:disabled,
 textarea:disabled,
 input:not([type]):disabled,
@@ -153,10 +122,6 @@ input[type="color"]:disabled {
     border-color: #dddddd;
     background-color: #f5f5f5;
     color: #999999
-}
-
-input[type="radio"] {
-    display: none
 }
 
 input[type="radio"]+label {
@@ -3600,7 +3565,7 @@ p {
     margin-bottom: 20px;
 }
 
-#profile-details input {
+.dashboard-profile input {
     background-color: #222;
     color: white;
 }
