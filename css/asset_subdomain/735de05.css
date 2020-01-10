@@ -3705,6 +3705,38 @@ p {
     text-align: center;
 }
 
+#billing-info-form {
+    display: inline-block;
+    width: 30%;
+}
+
+#billing-info-right {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#billing-info-right select, #billing-info-right input, #billing-info-form input, #card-info input {
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.form-small {
+    color: #333;
+    font-size: 10px;
+    width: 90%;
+}
+
+#card-info {
+    margin-top: -20px;
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    vertical-align: top;
+    width: 38%
+}
+
 .ord-sum-checkout {
     background-color: darkred;
     color: white;
