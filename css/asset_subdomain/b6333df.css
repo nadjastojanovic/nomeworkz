@@ -436,11 +436,6 @@ p {
     margin-top: 40px
 }
 
-.faq-wrapper {
-    padding-bottom: 50px;
-    text-align: left
-}
-
 .crossed-text {
     text-decoration: line-through
 }
@@ -631,17 +626,6 @@ p {
     clear: both
 }
 
-@media only screen and (min-width: 480px) {
-    .faq-page-wrapper h1,
-    .contactus-page-wrapper h1 {
-        float: left
-    }
-    .faq-page-wrapper_ar h1,
-    .contactus-page-wrapper_ar h1 {
-        float: right;
-        padding-right: 30px
-    }
-}
 
 @media only screen and (min-width: 600px) {
     .inner-content_profile {
@@ -731,9 +715,6 @@ p {
         width: 100%;
         float: none;
         margin-bottom: 20px
-    }
-    .faq-wrapper {
-        margin-top: 40px
     }
 }
 
@@ -6252,9 +6233,6 @@ input.errorInput:focus {
     padding: 55px 63px;
     width: 368px;
     height: 210px;
-    background-image: url("bundles/asterfreelance/_layout/images/EdubirdieCom/popup-v3/asset_subdomain/bubble.svg");
-    background-size: 100%;
-    background-repeat: no-repeat
 }
 
 .popup-v3__bubble_size_s {
@@ -9866,21 +9844,6 @@ input.errorInput:focus {
     animation-iteration-count: infinite
 }
 
-@supports ((-webkit-mask: url("bundles/asterfreelance/_layout/images/EdubirdieCom/writer-preview/asset_subdomain/writer-card_mask.svg")) or (mask: url("bundles/asterfreelance/_layout/images/EdubirdieCom/writer-preview/asset_subdomain/writer-card_mask.svg"))) {
-    .b-checkbox_writer-card_placeholder::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 2;
-        background-color: #fff;
-        -webkit-mask: url("bundles/asterfreelance/_layout/images/EdubirdieCom/writer-preview/asset_subdomain/writer-card_mask.svg");
-        mask: url("bundles/asterfreelance/_layout/images/EdubirdieCom/writer-preview/asset_subdomain/writer-card_mask.svg");
-        mask-type: alpha
-    }
-}
 
 @-webkit-keyframes placeholderShimmer {
     0% {
@@ -14548,10 +14511,6 @@ input.errorInput:focus {
     height: 280px
 }
 
-.writer-card_placeholder-big::after {
-    background-image: url("bundles/asterfreelance/_layout/images/EdubirdieCom/writer-card/asset_subdomain/writer-card_f_mask_big.svg")
-}
-
 .writer-preview {
     display: -webkit-box;
     display: -moz-box;
@@ -14574,8 +14533,6 @@ input.errorInput:focus {
     content: '';
     width: 28px;
     height: 27px;
-    background: url("bundles/asterfreelance/_layout/images/EdubirdieCom/writer-preview/asset_subdomain/star-gold.svg") no-repeat center;
-    background-size: contain;
     position: absolute;
     right: -9px;
     bottom: -7px
@@ -14826,11 +14783,6 @@ input.errorInput:focus {
 
 .writer-preview__img img {
     border-radius: 3px
-}
-
-.writer-preview__img_easy-bidding {
-    background: #fff url("bundles/asterfreelance/_layout/images/EdubirdieCom/writer-preview/asset_subdomain/writer-stub.svg") no-repeat center;
-    background-size: 34px auto
 }
 
 .writer-preview__name {
@@ -15844,18 +15796,6 @@ input.errorInput:focus {
     font-weight: 400
 }
 
-.customer-public-profile-wrapper .testimonials-title>h3,
-.customer-public-profile-wrapper .text-feedback {
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-all;
-    word-break: break-word;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto
-}
-
 .customer-public-profile-wrapper+.customer-public-profile-wrapper {
     margin-top: 20px
 }
@@ -15920,66 +15860,11 @@ input.errorInput:focus {
     color: #0a2535
 }
 
-.customer-public-profile-wrapper .testimonials-title {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 100%
-}
-
-.customer-public-profile-wrapper .testimonials-title>h3 {
-    font-size: 24px;
-    margin: 0;
-    font-weight: 300;
-    padding-right: 10px !important
-}
-
-.customer-public-profile-wrapper .testimonials-title>.label {
-    margin-top: 0 !important
-}
-
-@media screen and (max-width: 500px) {
-    .customer-public-profile-wrapper .testimonials-title {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: stretch;
-        -webkit-align-items: stretch;
-        -ms-flex-align: stretch;
-        align-items: stretch
-    }
-    .customer-public-profile-wrapper .testimonials-title>h3 {
-        margin-bottom: 15px;
-        padding: 0
-    }
-    .customer-public-profile-wrapper .testimonials-title>.label {
-        margin-bottom: 15px
-    }
-}
-
 .customer-public-profile-wrapper .order-info-block {
     font-size: 12px;
     color: #999;
     font-weight: 300;
     margin: 10px 0
-}
-
-.customer-public-profile-wrapper .testimonials-subtitle {
-    font-size: 14px;
-    color: #666666;
-    margin-top: 5px;
-    margin-bottom: 15px
 }
 
 .customer-public-profile-wrapper .feed-tabs-wrap {
@@ -16093,15 +15978,6 @@ input.errorInput:focus {
 }
 
 @media (max-width: 499px) {
-    .customer-public-profile-wrapper .testimonials-title {
-        margin-bottom: 10px
-    }
-    .customer-public-profile-wrapper .testimonials-title>h3 {
-        padding-right: 0
-    }
-    .customer-public-profile-wrapper .testimonials-title>.label {
-        margin-top: 0 !important
-    }
     .customer-public-profile-wrapper .rate-block.uk-float-right {
         float: none;
         display: block;
@@ -16112,14 +15988,6 @@ input.errorInput:focus {
         margin-left: 0;
         margin-right: auto
     }
-}
-
-.customer-public-profile-wrapper .testimonials-title>h3 {
-    padding-right: 210px
-}
-
-.customer-public-profile-wrapper .testimonials-title>.label {
-    margin-top: -30px
 }
 
 .customer-public-profile-wrapper .label-canceled {
@@ -16626,21 +16494,6 @@ input.errorInput:focus {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 18px auto
-}
-
-.place-order-bidding-wrapper .bidding-results .search-results .user-card .user-card__bottom .user-card-button.accept::before {
-    background-color: #29a653;
-    background-image: url("bundles/asterfreelance/_layout/images/EdubirdieCom/bidding/asset_subdomain/bidding_accept.svg")
-}
-
-.place-order-bidding-wrapper .bidding-results .search-results .user-card .user-card__bottom .user-card-button.decline::before {
-    background-color: #b03926;
-    background-image: url("bundles/asterfreelance/_layout/images/EdubirdieCom/bidding/asset_subdomain/bidding_decline.svg")
-}
-
-.place-order-bidding-wrapper .bidding-results .search-results .user-card .user-card__bottom .user-card-button.chat::before {
-    background-color: #4c5b7d;
-    background-image: url("bundles/asterfreelance/_layout/images/EdubirdieCom/bidding/asset_subdomain/bidding_chat.svg")
 }
 
 @media only screen and (max-width: 900px) {
@@ -17905,12 +17758,6 @@ input.errorInput:focus {
     max-width: 318px;
     margin-left: auto;
     margin-right: auto
-}
-
-.background-card_testimonials .wrapper-pagination .uk-pagination,
-.inner-content .background-card_testimonials .wrapper-pagination .uk-pagination {
-    padding-top: 45px;
-    padding-bottom: 0
 }
 
 .background-card_of,
@@ -25657,63 +25504,6 @@ only screen and (min-width: 1366px) and (min-resolution: 192dpi) {
     }
 }
 
-.testimonials-block-wrapper .testimonials-list li {
-    margin-top: 40px;
-    position: relative
-}
-
-.testimonials-block-wrapper .testimonials-list li:last-child::after,
-.testimonials-block-wrapper .testimonials-list li:last-child::before {
-    display: none
-}
-
-.testimonials-block-wrapper .testimonials-list li+li::after {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: #0f80de;
-    position: absolute;
-    top: -20px;
-    left: 50%;
-    margin-left: -55px
-}
-
-.testimonials-block-wrapper .testimonials-list li+li::before {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: #ffd30b;
-    position: absolute;
-    top: -15px;
-    left: 50%;
-    margin-left: -35px
-}
-
-.testimonials-block-wrapper .testimonials-author {
-    margin-bottom: 8px;
-    display: block;
-    font-size: 16px;
-    margin-left: 0;
-    color: #045281
-}
-
-.testimonials-block-wrapper .testimonials-author i {
-    display: none
-}
-
-.testimonials-block-wrapper .testimonials-body {
-    margin-top: 0;
-    position: relative;
-    padding: 0;
-    font-style: italic
-}
-
-.testimonials-block-wrapper .contacts-wrapper {
-    padding-bottom: 70px
-}
-
 .b-review {
     margin-bottom: 20px;
     border: solid 1px rgba(76, 91, 125, 0.3);
@@ -26260,9 +26050,6 @@ only screen and (min-width: 1366px) and (min-resolution: 192dpi) {
     padding: 55px 63px;
     width: 368px;
     height: 210px;
-    background-image: url("bundles/asterfreelance/_layout/images/EdubirdieCom/popup-v3/asset_subdomain/bubble.svg");
-    background-size: 100%;
-    background-repeat: no-repeat
 }
 
 .popup-v3__bubble_size_s {
