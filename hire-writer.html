@@ -331,7 +331,7 @@
 
         <div id="profile-details" class="hire-writer-form">
             <h1 class="background-card__title">Place Order</h1>
-            <form>
+            <form id="left-first-form">
                 <label>
                     Type of Service<br>
                     <input type="radio" name="service" value="writing" checked>Writing
@@ -359,24 +359,25 @@
                     <input type="text" name="topic">
                 </label>
                 <br>
+            </form>
+            <form id="right-first-form">
                 <label>
                     Paper instructions<br>
-                    <textarea name="instructions" placeholder="Any special requirements? Give us the main idea of the paper and other details (e.g. citation formatting)"></textarea>
+                    <textarea id="paper-instructions" name="instructions" placeholder="Any special requirements? Give us the main idea of the paper and other details (e.g. citation formatting)"></textarea>
                 </label>
                 <br>
-                <div style="background-color: #333; width: 250px; margin:20px; text-align: center; padding: 10px; height: 100px;">
+                <div id="drop-files">
                     Drop files here
                 </div>
-                <br>
+            </form>
+            <form style="margin-top: 20px;">
                 <label>
                     Let us pick the best writer for your order for additional payment £6.99
                     <input type="checkbox" name="pick-writer" value="yes">
                 </label>
-                <br>
-                <button style="width: auto !important;" class="profile-details-save-btn">View writers' offers</button>
             </form>
-        </div>
-        
+            <h1 style="margin-top: 20px;" class="background-card__title">Choose your Writer</h1>
+        </div>       
 
     </section>
 
