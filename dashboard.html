@@ -298,7 +298,6 @@
         </div>
 
         <div id="profile-details" class="dashboard-profile">
-            <form action="" method="post" class="uk-form js_profile_form">
                 <div class="background-card background-card_mobile js_functional_block">
                     <div class="background-card__heading">
                         <div class="background-card__title">General information</div>
@@ -306,88 +305,45 @@
                             Feel free to update your profile below any time. Your privacy is always guaranteed, and your data is protected. This page is visible only to our support team.            </div>
                     </div>
             
-                    
-                    <div class="profile-layout">
-                        <div class="input-group-v2">
+                    <form class="dashboard-form">
                                     
-                    <label class="label-v2 " data-error="">
-                    Username*
-                    <input type="text" id="customer_profile_nickname_nickname" name="customer_profile[nickname][nickname]" class="input-v2 js_check_on_change js_ga_field_nickname" value="customer-2783621" />
-                </label>
+                        <label>
+                            Username*<br>
+                            <input type="text" name="username" value="JohnDoe" />
+                        </label>
+                        <br>
+                        <label>
+                            First Name<br>
+                            <input type="text" name="first-name"/>
+                        </label>
+                        <br>
+                        <label>
+                            Last Name<br>
+                            <input type="text" name="last-name"/>
+                        </label>
             
-            
-                        </div>
-                        <div style="margin: 20px 0;" class="input-group-v2">
-                            <label class="label-v2">
-                                Email:
-                                <span class="label-v2__fake-input">
-                                    <span>
-                                        <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1e707f7a77747f2e2c5e79737f7772307d7173">[email&#160;protected]</a>
-                                    </span>
-                                </span>
-                            </label>
-                        </div>
-                        
-                        <div class="input-group-v2">
-                                    
-                    <label class="label-v2 " data-error="">
-                    First Name
-                    <input type="text" id="customer_profile_first_name" name="customer_profile[first_name]" class="input-v2 js_check_on_change js_ga_field_first_name" />
-                </label>
-            
-            
-                        </div>
-                        <div class="input-group-v2">
-                                    
-                    <label class="label-v2 " data-error="">
-                    Last Name
-                    <input type="text" id="customer_profile_last_name" name="customer_profile[last_name]" class="input-v2 js_check_on_change js_ga_field_last_name" />
-                </label>
-            
-            
-                        </div>
-                    </div>
-            
-                    <div class="profile-layout ">
-                        
-            
-            
-            
-            
-            
-            <div class="input-group-v2 input-group-v2_phone input-group-v2_pb_35">
-                <label class="js_snp_label label-v2
-                              "
-                       data-error="">
-                    Contact Phone*
-                    <input name="phone_number"
-                           class="input-v2 js_snp_number"
-                           value=""
-                           type="tel"
-            
-                           
-                           >
-                </label>
-            
-                <label class="input-group-v2__checkbox b-checkbox b-checkbox_size_l">
-                    <input class="b-checkbox__control js_snp_notify_param"
-                           value="1"
-                           checked               type="checkbox"
-                           name="notify_box">
-                    <span class="b-checkbox__box"></span>
-                    <span class="b-checkbox__text">Notify about special offers</span>
-                </label>
-            </div>
-            
-                    <button class="profile-details-save-btn">
-                        Save
-                    </button>
-                </div>
-                </form>
-        </div>
-        
+                    </form>
 
-    </section>
+                    <form class="dashboard-form">
+                        <label>
+                            Email:
+                            <p class="dashboard-small">example@email.com</p>
+                        </label>
+                        <br>
+                        <label>
+                            Contact Phone*<br>
+                            <input name="phone_number" value="" type="tel">
+                        </label>
+                        <br><br>
+                        <label>
+                            <p style="display: inline; font-size: 12px;">Get notifications about special offers</p>
+                            <input value="1" type="checkbox" name="notify_box" checked>
+                        </label>
+                    </form>
+                </div>
+            <button class="profile-details-save-btn">Save</button>
+            </div>
+        </section>
 
     
 

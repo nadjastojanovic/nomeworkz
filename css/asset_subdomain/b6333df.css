@@ -20906,3 +20906,7 @@ only screen and (min-width: 768px) and (min-resolution: 192dpi) {
         columns: 1
     }
 }
+
+.block__read_more_pt_0 {
+    padding-top: 0
+}}
