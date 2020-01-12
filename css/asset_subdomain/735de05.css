@@ -876,6 +876,13 @@ p {
     display: inline;
 }
 
+.gnome-work-subject {
+    color: #333;
+    font-size: 14px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
 .stats-li {
     color: #333;
     margin-left: 20px;
@@ -3642,12 +3649,17 @@ p {
 }
 
 .req-writers {
+    vertical-align: top;
     margin-top: 20px;
     background-color: white;
     width: 32%;
     display: inline-block;
     padding: 15px;
     border-radius: 10px;
+}
+
+.mySlides .req-writers {
+    width: 48% !important;
 }
 
 .req-writers-name {
@@ -3678,11 +3690,18 @@ p {
     color: #333;
     font-size: 12px;
     text-decoration: underline;
+    margin-left: 4px;
+}
+
+.gnome-work-title {
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 5px;
 }
 
 .req-writers-buttons {
     margin: auto;
-    width: 85%;
     margin-top: 10px;
 }
 
