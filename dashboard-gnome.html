@@ -290,12 +290,12 @@
                 </div>
             </div>
             <div class="account-links">
-                <a id="hire-writer-a" href="hire-writer.html">
-                    <button>Place Order</button>
+                <a id="hire-writer-a" href="find-work-gnome.html">
+                    <button>Find work</button>
                 </a>
                 <br>
-                <a id="account-orders-a" href="account-orders.html">
-                    <button>My orders</button>
+                <a id="account-orders-a" href="past-orders-gnome.html">
+                    <button>Past orders</button>
                 </a>
             </div>
         </div>
@@ -339,11 +339,25 @@
                         </label>
                         <br><br>
                         <label>
-                            <p style="display: inline; font-size: 12px;">Get notifications about special offers</p>
-                            <input value="1" type="checkbox" name="notify_box" checked>
+                            Availability: 
+                            <input type="radio" name="availability" value="available">available 
+                            <input type="radio" name="availability" value="unavailable">busy 
+                        </label>
+                    </form>
+                    <form>
+                        <br>
+                        <label>
+                            Professional experience<br>
+                            <textarea class="gnome-textarea" placeholder="Which type of writing do you specialise in? What is your experience in this field?"></textarea>
+                        </label>
+                        <br><br>
+                        <label>
+                            Education<br>
+                            <textarea class="gnome-textarea"></textarea>
                         </label>
                     </form>
                 </div>
+                <br>
             <button class="profile-details-save-btn">Save</button>
             </div>
         </section>

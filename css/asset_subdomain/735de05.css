@@ -35,6 +35,9 @@ body.has-banner_size_xl {
     padding-top: 100px
 }
 
+.gnome-textarea {
+    width: 100%;
+}
 
 select:focus,
 textarea:focus,
@@ -121,7 +124,7 @@ input[type="radio"]:checked+label i::after {
 
 textarea {
     resize: none;
-    padding: 11px 20px;
+    padding: 10px 10px;
     min-height: 100px;
     overflow: hidden;
     font-family: Helvetica, sans-serif;
@@ -860,29 +863,33 @@ p {
     color: #fff
 }
 
-.btn_chat .btn__chat-num {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border-radius: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-    background-color: #e03412;
-    font-size: 12px;
-    text-align: center
-}
-
 .btn.btn_payment {
     width: 100%;
     font-size: 14px;
     line-height: 1;
     text-transform: uppercase;
     white-space: nowrap
+}
+
+.stats-p {
+    color: #333;
+    display: inline;
+}
+
+.stats-li {
+    color: #333;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.subjects-list {
+    list-style: circle;
+}
+
+.stats-stars {
+    vertical-align: top;
+    height: 20px;
+    width: auto;
 }
 
 .btn.btn_payment span {
