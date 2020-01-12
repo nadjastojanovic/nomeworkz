@@ -781,7 +781,7 @@
 
 .modal-allow-user .login_form .uk-button:focus,
 .modal-allow-user .login_form .uk-button:hover {
-    background-color: #36ceff
+    background-color: darkred;
 }
 
 .popup_exit .uk-modal-dialog .uk-form {

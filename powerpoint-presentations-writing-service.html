@@ -75,9 +75,57 @@
                                         <button class="uk-button" data-atest=atest_login_form_submit type="submit">Continue</button>
                                     </a>
                                 </div>
-                            <input type="hidden" id="_pre_login_user_type_id_for_signup" name="_pre_login_user_type_id_for_signup" class="js_pre_login_user_type_id_for_signup" value="1" />
-                            <input type="hidden" id="_pre_login_social_account_id" name="_pre_login_social_account_id" class="js_pre_login_social_account_id" />
-                            <input type="hidden" id="_token" name="_token" data-js-token-id="22ad8a75859312de6dd8f84329d3e66b" value="ba76610e1de19affdd7bd535f13c2259__e7b5fd9a01cf455d0d2f4053fe6b2a61" />
+                                <center>
+                                    <a href="#" style="text-decoration: underline;" class="small-p" data-popup-target="popup_login-gnome"  data-popup-data='[]' data-popup-click="" data-atest=atest_login_elem_popup_open>Log in for Gnome writers here!</a>
+                                </center>
+                            <div class="uk-clearfix"></div>
+                        </form>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_login-gnome" style="display:none;">
+        <div class="uk-modal-dialog">
+            <div class="modal-content">
+                <div class="uk-modal-header">
+                    <span>Gnome Log in</span>
+                    <p class="uk-modal-header__description js_popup_login_custom_text"></p>
+                    <a aria-label="Close" data-dismiss="modal" class="uk-modal-close sm-round"></a>
+                </div>
+                <div class="uk-form">
+                    <span class="js_login_form_container">
+                        <form method="post"  action="dashboard.html" class="login_form js_pre_login_form" >
+                            <p class="modal-info-title">
+                                Log in to get instant access to assignments and your dashboard
+                            </p>
+                            <button class="connect-social-btn connect-social-btn_google js_google_login_btn" type="button">
+                                <span>CONTINUE WITH GOOGLE</span>
+                            </button>
+                            <button class="connect-social-btn connect-social-btn_fb js_facebook_login_btn" type="button">
+                                <span>CONTINUE WITH FACEBOOK</span>
+                            </button>
+                            <div class="modal-or">
+                                <span>or</span>
+                            </div>
+                            <div class="line js_login_sub_action_line" style="display:none;">
+                                You need to Log in 
+                                <span class="js_login_sub_action_text"></span>
+                            </div>
+                            
+                            <div class="line">
+                                <input type="email" id="_pre_login_username" name="_pre_login_username" data-atest="atest_login_form_email" placeholder="Your email" />
+                            </div>
+                            <div class="line">
+                                <input type="password" id="_pre_login_password" name="_pre_login_password" data-atest="atest_login_form_password" class="" placeholder="Your password" />
+                            </div>
+                            <div class="line js_social_auth_error_block" style="display: none;">
+                                <div class="errorText js_social_auth_error_text js_login_loading_hide" data-atest=atest_login_elem_error_text></div>
+                            </div>
+                                <div class="js_login_loading_hide line" >
+                                                                       <a class="gnome-button uk-button" href="dashboard-gnome.html">Continue</a>
+                             
+                                </div>
                             <div class="uk-clearfix"></div>
                         </form>
                     </span>
@@ -95,6 +143,9 @@
                 </div>
                 <div class="uk-form">
                     <span class="js_login_form_container">
+                        <p class="modal-info-title">
+                            Sign up to place an order and get an essay in as little as 3 days!
+                        </p>
                         <form method="post"  action="dashboard.html" class="login_form js_pre_login_form" >
                             <div class="line">
                                 <input type="text" id="_pre_signup_name" name="_pre_signup_name" data-atest="atest_signup_form_name" placeholder="First and last name" />
@@ -120,16 +171,60 @@
                                         <button class="uk-button" data-atest=atest_login_form_submit type="submit">Continue</button>
                                     </a>
                                 </div>
-                            <input type="hidden" id="_pre_login_user_type_id_for_signup" name="_pre_login_user_type_id_for_signup" class="js_pre_login_user_type_id_for_signup" value="1" />
-                            <input type="hidden" id="_pre_login_social_account_id" name="_pre_login_social_account_id" class="js_pre_login_social_account_id" />
-                            <input type="hidden" id="_token" name="_token" data-js-token-id="22ad8a75859312de6dd8f84329d3e66b" value="ba76610e1de19affdd7bd535f13c2259__e7b5fd9a01cf455d0d2f4053fe6b2a61" />
+                                <center>
+                                    <a href="#" style="text-decoration: underline;" class="small-p" data-popup-target="popup_signup-gnome"  data-popup-data='[]' data-popup-click="" data-atest=atest_login_elem_popup_open>Want to become a Gnome? Sign up here!</a>
+                                </center>
                             <div class="uk-clearfix"></div>
                         </form>
                     </span>
                 </div>
             </div>
         </div>
-    </div>                               
+    </div>
+    <div id="popup_signup-gnome" style="display:none;">
+        <div class="uk-modal-dialog" >
+            <div class="modal-content" >
+                <div class="uk-modal-header">
+                    <span>Gnome Sign Up</span>
+                    <p class="uk-modal-header__description js_popup_login_custom_text"></p>
+                    <a aria-label="Close" data-dismiss="modal" class="uk-modal-close sm-round"></a>
+                </div>
+                <div class="uk-form">
+                    <span class="js_login_form_container">
+                        <p class="modal-info-title">
+                            Sign up to use your writing skills for the best!
+                        </p>
+                        <form method="post"  action="dashboard.html" class="login_form js_pre_login_form" >
+                            <div class="line">
+                                <input type="text" id="_pre_signup_name" name="_pre_signup_name" data-atest="atest_signup_form_name" placeholder="First and last name" />
+                            </div>
+                            <div class="line js_login_sub_action_line" style="display:none;">
+                                You need to Sign Up 
+                                <span class="js_login_sub_action_text"></span>
+                            </div>
+                            <div class="line">
+                                <input type="email" id="_pre_signup_username" name="_pre_signup_username" data-atest="atest_signup_form_email" placeholder="Your email" />
+                            </div>
+                            <div class="line">
+                                <input type="password" id="_pre_signup_password" name="_pre_signup_password" data-atest="atest_signup_form_password" placeholder="Your password" />
+                            </div>
+                            <div class="line">
+                                <input type="tel" id="_pre_signup_phone" name="_pre_signup_phone" data-atest="atest_signup_form_phone" placeholder="Your phone number" />
+                            </div>
+                            <div class="line js_social_auth_error_block" style="display: none;">
+                                <div class="errorText js_social_auth_error_text js_login_loading_hide" data-atest=atest_login_elem_error_text></div>
+                            </div>
+                                <div class="js_login_loading_hide line" >
+                                                                       <a class="gnome-button uk-button" href="dashboard-gnome.html">Continue</a>
+                             
+                                </div>
+                            <div class="uk-clearfix"></div>
+                        </form>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>                                     
     <div id="popup_cant_register" style="display:none;">
         <div class="uk-modal-dialog">
             <div class="modal-content">
@@ -1193,7 +1288,7 @@ requirements, and provide deadline.</div>
 <section class="block__read_more">
 <div class="row">
 <h1 class="h1_capitalize">Our Case Study Writing Service Comes to Help</h1>
-<div class="read_more_text_wrapper active">
+<div class="read_more_text_wrapper">
 <p style="text-align: centre;">One area among others where Nomeworkz helps students has to do with case studies. Given the experience of our team of&nbsp;writers and strict quality criteria, Nomeworkz can be viewed as a professional case study writing service competent in a wide spectrum of subjects. All these allow us to offer almost any kind of writing assistance you can imagine.</p>
 <div class="columns">
 <p style="text-align: justify;">Studying has never been easy and it is equally true nowadays, when students are forced to adjust to very demanding schedules.&nbsp;Many of them combine their studies with internships or are forced to work in order to pay for tuition. Family life may be another complicating factor in terms of free time.</p>
@@ -1415,77 +1510,45 @@ requirements, and provide deadline.</div>
                             </ul>
                         </div>
                     </div>
-                    <div class="footer__col footer__col_mb_20 footer__col_tools">
-                        <div class="footer__section footer__section_fb_85">
-                            <h4 class="footer__title">TOOLS:</h4>
-                            <ul class="footer__section-content footer__text">
-                                <li class="footer__section-item">
-                                    <a href="index.html"  >Free Essay Writing Tools</a>
-                                </li>
-                                <li class="footer__section-item">
-                                    <a href="index.html"  >Free Plagiarism Checker</a>
-                                </li>
-                                <li class="footer__section-item d-none-mobile">
-                                    <a href="index.html">Grammar Checker</a>
-                                </li>
-                                <li class="footer__section-item">
-                                    <a href="index.html"  >Paraphrasing Tool</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="footer__section footer__section_fb_85">
-                            <h4 class="footer__title">For Press:</h4>
-                            <ul class="footer__section-content footer__text">
-                                <li class="footer__section-item">
-                                    <a href="index.html"  >Press and Media</a>
-                                </li>
-                                <li class="footer__section-item">
-                                    <a href="index.html"  >Brand Assets</a>
-                                </li>
-                                <li class="footer__section-item">
-                                    <a href="index.html"  >Press Release</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                     
                     <div class="footer__col footer__col_mb_20 footer__col_contact">
-                        <div class="footer__section footer__section_fb_85">
-                            <h4 class="footer__title">Contact us:</h4>
-                            <ul class="footer__section-content footer__text">
-                                <li class="footer__section-item footer__section-item_contact footer__section-item_message">
-                                    <a href="mailto:support@nomeworkz.com">support@nomeworkz.com</a>
-                                </li>
-                                <li class="footer__section-item footer__section-item_contact footer__section-item_phone">
-                                    <a href="tel:+18888888888">+1 (888) 888 888</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="footer__section footer__section_fb_85 footer__section_mob-hidden">
-                            <h4 class="footer__title">Follow us:</h4>
-                            <ul class="footer__section-content footer__section-content_socials">
-                                <li class="footer__social-item">
-                                    <a href="#" target="_blank">
-                                        <img src="files/facebook.png">
-                                    </a>
-                                </li>
-                                <li class="footer__social-item">
-                                    <a href="#" target="_blank">
-                                        <img src="files/twitter.png">
-                                    </a>
-                                </li>
-                                <li class="footer__social-item">
-                                    <a href="#" target="_blank">
-                                        <img src="files/linkedin.png">
-                                    </a>
-                                </li>
-                                <li class="footer__social-item">
-                                    <a href="#" target="_blank">
-                                        <img src="files/instagram.png">
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="footer__section footer__section_fb_85">
+                        <h4 style="text-align: right;" class="footer__title">Contact us:</h4>
+                        <ul style="text-align:right;" class="footer__section-content footer__text">
+                            <li class="footer__section-item footer__section-item_contact footer__section-item_message">
+                                <a href="mailto:support@nomeworkz.com">support@nomeworkz.com</a>
+                            </li>
+                            <li class="footer__section-item footer__section-item_contact footer__section-item_phone">
+                                <a href="tel:+18888888888">+1 (888) 888 8888</a>
+                            </li>
+                        </ul>
                     </div>
+                    <div class="footer__section footer__section_fb_85 footer__section_mob-hidden">
+                        <h4 style="text-align: right;" class="footer__title">Follow us:</h4>
+                        <ul style="float: right;" class="footer__section-content footer__section-content_socials">
+                            <li class="footer__social-item">
+                                <a href="#" target="_blank">
+                                    <img src="files/facebook.png">
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="#" target="_blank">
+                                    <img src="files/twitter.png">
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="#" target="_blank">
+                                    <img src="files/linkedin.png">
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="#" target="_blank">
+                                    <img src="files/instagram.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                      
                     
                     

@@ -189,10 +189,6 @@ p {
     color: #333
 }
 
-:-ms-input-placeholder {
-    color: #333
-}
-
 ::placeholder {
     color: #333
 }
@@ -398,10 +394,6 @@ p {
 }
 
 .uk-form::-moz-placeholder {
-    opacity: 1
-}
-
-.uk-form:-ms-input-placeholder {
     opacity: 1
 }
 
@@ -1087,7 +1079,7 @@ p {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active-dot, .dot:hover {
   background-color: #717171;
 }
 
@@ -1516,10 +1508,8 @@ p {
 
 .uk-button:hover,
 .uk-button:focus {
-    background: #ffdc3e;
     outline: none;
     text-decoration: none;
-    color: #0f80de
 }
 
 .uk-button:visited {
@@ -3261,6 +3251,12 @@ p {
     display: none
 }
 
+
+.js_login_form_container input {
+    width: 100% !important;
+}
+
+
 @media only screen and (max-width: 1176px) {
     .page-header {
         position: fixed
@@ -3293,7 +3289,8 @@ p {
         -webkit-box-ordinal-group: 2;
         -webkit-order: 1;
         -ms-flex-order: 1;
-        order: 1
+        order: 1;
+        margin-right: 20px !important;
     }
     .page-header .page-header__login-btn::before {
         content: '';
@@ -6171,10 +6168,6 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
     color: #333
 }
 
-.pre-order-login-form .pre-order-login-form__input:-ms-input-placeholder {
-    color: #333
-}
-
 .pre-order-login-form .pre-order-login-form__input::placeholder {
     color: #333
 }
@@ -6186,10 +6179,6 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
     background-position: 92% 52%;
     background-repeat: no-repeat;
     background-size: 16px auto
-}
-
-.pre-order-login-form .pre-order-login-form__select::-ms-expand {
-    display: none
 }
 
 .pre-order-login-form__form-group {
@@ -6302,7 +6291,6 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
     -moz-box-ordinal-group: 0;
     box-ordinal-group: 0;
     -webkit-order: 0;
-    -moz-order: 0;
     order: 0;
     -ms-flex-order: 0
 }
@@ -6312,7 +6300,6 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
     -moz-box-ordinal-group: 1;
     box-ordinal-group: 1;
     -webkit-order: 1;
-    -moz-order: 1;
     order: 1;
     -ms-flex-order: 1
 }
@@ -6322,7 +6309,6 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
     -moz-box-ordinal-group: 2;
     box-ordinal-group: 2;
     -webkit-order: 2;
-    -moz-order: 2;
     order: 2;
     -ms-flex-order: 2
 }
@@ -6332,7 +6318,6 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
     -moz-box-ordinal-group: 3;
     box-ordinal-group: 3;
     -webkit-order: 3;
-    -moz-order: 3;
     order: 3;
     -ms-flex-order: 3
 }
@@ -6342,7 +6327,6 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
     -moz-box-ordinal-group: 4;
     box-ordinal-group: 4;
     -webkit-order: 4;
-    -moz-order: 4;
     order: 4;
     -ms-flex-order: 4
 }
@@ -6352,7 +6336,6 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
     -moz-box-ordinal-group: 5;
     box-ordinal-group: 5;
     -webkit-order: 5;
-    -moz-order: 5;
     order: 5;
     -ms-flex-order: 5
 }
@@ -6362,17 +6345,14 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
     -moz-box-ordinal-group: 6;
     box-ordinal-group: 6;
     -webkit-order: 6;
-    -moz-order: 6;
     order: 6;
     -ms-flex-order: 6
 }
-
 .home_page__wrapper .flex-order-7 {
     -webkit-box-ordinal-group: 7;
     -moz-box-ordinal-group: 7;
     box-ordinal-group: 7;
     -webkit-order: 7;
-    -moz-order: 7;
     order: 7;
     -ms-flex-order: 7
 }
@@ -6382,7 +6362,6 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
     -moz-box-ordinal-group: 8;
     box-ordinal-group: 8;
     -webkit-order: 8;
-    -moz-order: 8;
     order: 8;
     -ms-flex-order: 8
 }
@@ -6392,7 +6371,6 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
     -moz-box-ordinal-group: 9;
     box-ordinal-group: 9;
     -webkit-order: 9;
-    -moz-order: 9;
     order: 9;
     -ms-flex-order: 9
 }
@@ -6402,7 +6380,6 @@ only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
     -moz-box-ordinal-group: 10;
     box-ordinal-group: 10;
     -webkit-order: 10;
-    -moz-order: 10;
     order: 10;
     -ms-flex-order: 10
 }
